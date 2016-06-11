@@ -1,6 +1,14 @@
 uruchom serwer:		npm start
 
 
+heroku::
+app.js cookie domain  http://click-io.herokuapp.com/
+public/javascripts/script.js socketio var socket = io.connect('http://click-io.herokuapp.com');
+bin/www var port = normalizePort(process.env.PORT || '80');
+
+
+
+
 --pokoje to URL inny niż /
 --/ to strona powitalna 
 --event on mouse down jeśli jest obiekt to jeden socket event, jeśli nie, to inny. 

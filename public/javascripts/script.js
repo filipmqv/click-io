@@ -39,7 +39,9 @@ canvas.add(text);
 
 
 //var socket = io.connect('http://localhost:3000');
-var socket = io.connect('192.168.1.4:3000');
+var socket = io.connect('http://click-io.herokuapp.com');
+//var socket = io.connect('192.168.1.4:3000');
+
 
 socket.on('connection reply', function (data) {
 	socket.emit('room and dimensions', {
