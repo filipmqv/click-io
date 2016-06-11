@@ -26,7 +26,7 @@ app.use(function (req, res, next) {
     var randomNumber=Math.random().toString()+'00000000000000000000';
     randomNumber=randomNumber.substring(2,20);
     console.log('new userId ' + randomNumber);
-    res.cookie('userId', randomNumber, { domain: 'herokuapp.com', maxAge: 900000, httpOnly: true });
+    res.cookie('userId', randomNumber, { domain: '*.herokuapp.com', maxAge: 900000, httpOnly: true });
   } 
   next(); // <-- important!
 });
