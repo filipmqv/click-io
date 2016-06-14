@@ -5,7 +5,7 @@ heroku::
 app.js cookie    domain: 'click-io.herokuapp.com'
 public/javascripts/script.js socketio var socket = io.connect('http://click-io.herokuapp.com');
 bin/www var port = normalizePort(process.env.PORT || '80');
-Procfile
+Procfile 		web: node bin/www
 
 
 
