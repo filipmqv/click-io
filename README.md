@@ -22,14 +22,14 @@ ZADANIA (TASKS):
 
 --user wchodzi na url pokoju
 --dostaje strone game
-	--serwer on connection dodaje usera do tablicy userow (cookie), wysyla 'first'
+--serwer on connection dodaje usera do tablicy userow (cookie), wysyla 'first'
 --user on 'first' wysyla swoje wymiary canvasa, id pokoju
-	--serwer: (jesli nie ma jeszcze takiego pokoju to musi go utworzyc); zapisuje sobie wymiary (dla konkretnego pokoju)(do algorytmu), jesli user loguje sie do tego samego pokoju co ostatnio to ok, wpp usun tamten wynik gry i dodaje usera do tablicy pokoju, odsyla aktualnie przebywajacych userow, ich punkty, a pozostalym userom wysyla tez zapdejtowana liste userow (metoda ogólna na rozglaszanie wynikow)
+--serwer: (jesli nie ma jeszcze takiego pokoju to musi go utworzyc); zapisuje sobie wymiary (dla konkretnego pokoju)(do algorytmu), jesli user loguje sie do tego samego pokoju co ostatnio to ok, wpp usun tamten wynik gry i dodaje usera do tablicy pokoju, odsyla aktualnie przebywajacych userow, ich punkty, a pozostalym userom wysyla tez zapdejtowana liste userow (metoda ogólna na rozglaszanie wynikow)
 --user po otrzymaniu zapisuje sobie liste userow w pokoju i ich punkty
 
 --user - id z cookie, wymiary ekranu, w jakim pokoju gra, punkty, 
 
-	--serwer okresowo wysyla do wszystkich gier losowe figury
+--serwer okresowo wysyla do wszystkich gier losowe figury
 --user po kliknieciu w canvas wysyla powiadomienie (jesli trafil/ nie trafil w figure)
 
 
