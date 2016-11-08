@@ -1,7 +1,11 @@
-Gra przystosowana do umieszczenia na serwerze heroku (drobne zmiany)
+[ENG] Simple multiplayer game - click on appearing rectangles and gain points. Be faster then opponents. 
+
+Libs: nodeJS + socket.io + fabric.js (for canvas)
+
+
+[PL] Gra przystosowana do umieszczenia na serwerze heroku (drobne zmiany)
 
 uruchom serwer:		npm start
-
 
 heroku (zmienione linie kodu względem pracy na localhoscie):
 app.js cookie    domain: 'click-io.herokuapp.com'
@@ -9,9 +13,7 @@ public/javascripts/script.js socketio var socket = io.connect('http://click-io.h
 bin/www var port = normalizePort(process.env.PORT || '80');
 Procfile 		web: node bin/www
 
-
-
-ZADANIA:
+ZADANIA (TASKS):
 --pokoje to URL inny niż /
 --/ to strona powitalna 
 --event on mouse down jeśli jest obiekt to jeden socket event, jeśli nie, to inny. 
